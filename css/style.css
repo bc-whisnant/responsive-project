@@ -149,6 +149,12 @@ h1,h2 {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
+ 	body {
+
+ 		background-color : yellow;
+ 	}
+	
+
 	h1, h2, p {
 
 		text-align : center;
@@ -173,18 +179,14 @@ h1,h2 {
 
 	}
 
-	.name{
-		
-	}
+
 
 	h2, h1, p {
 
 		text-align : center;
 	}
 
-	.main-nav {
-		
-	}
+
 
 	.main-nav li {
 		display: inline;
@@ -195,18 +197,24 @@ h1,h2 {
 		.about-me {
 
 		text-align : center;
-		width :100%;	
-		
-	}
+		width :100%;
+			}
 
 	.profile {
 
 		width : 88%;
 		float : left;
 		margin-bottom : 25px;
-		margin-right : 20px;
 		margin-left : 10px;
+			}
+
+	.about-me p {
+
+		overflow : hidden;
+		float : left;
 	}
+
+
 
 	.portfolio-text {
 
@@ -242,6 +250,7 @@ h1,h2 {
 	.footer-nav {
 
 		float : right;
+		display : none;
 	}
 
 	.footer-nav li {
@@ -249,6 +258,13 @@ h1,h2 {
 		display : inline-block;
 		float : right;
 		padding-right : 5px;
+	}
+
+	.mobile-footer-nav {
+
+		display : inline-block;
+		float : right ;
+		margin-top : 11px;
 	}
 
 
@@ -356,6 +372,10 @@ h1,h2 {
 		padding-right : 5px;
 	}
 
+	.mobile-footer-nav {
+
+		display : none;
+	}
 
 	/* ---- Float clearfix ---- */
 
@@ -452,6 +472,11 @@ h1,h2 {
 		float : right;
 		padding-right : 5px;
 		padding-top : 5px;
+	}
+
+		.mobile-footer-nav {
+
+		display : none;
 	}
 
 
